@@ -113,5 +113,6 @@ public class SnakeHead : MonoBehaviour
         {
             Destroy(tailPart.gameObject);
         }
+        Score.text = "GameOver " + "score : " + score;
     }
 }
